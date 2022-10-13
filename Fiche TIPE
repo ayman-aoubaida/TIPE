@@ -1,24 +1,30 @@
-ubuntu budgie 22.04
-                                        Divers liens :
-
-https://guidededu.ucanss.fr/res/ADEME_janvier2014_Guide-Optimiser-ses-deplacements.pdf -> Pour l'intro
-https://fr.wikipedia.org/wiki/V%C3%A9hicule_automatique_l%C3%A9ger -> Wiki sur le VAL
-https://pastel.archives-ouvertes.fr/pastel-00002981/document -> These technique Phy/SI
-https://pepite-depot.univ-lille.fr/LIBRE/Th_Num/1996/50376-1996-164.pdf -> These Info "Logique floue" 
 
 VAL Lille 
-Régulation, Optimisation, 
+Régulation, Optimisation, Modélisation 
 
-Service partiel
 
-Contraintes/améliorables du VAL -> Modélisation Maths/Info -> Programme modélisant la situation et la solution
+---Principale réference pour le moment :----------
 
-Representation graphique ?
+https://pepite-depot.univ-lille.fr/LIBRE/Th_Num/1996/50376-1996-164.pdf -> These Info "Logique floue" 
 
-En C c'est + logique 
-
-Représensentation par reseaux de flots -> poids = distance / temps trajet 
+Sur quelle problématique ? 
+-Service partiel
+-
+-
+-
+-
 
 Inférence bayésienne <> Logique floue
+
+Représentation par réseaux de flots -> poids = distance / temps trajet
+
+Représentation graphique ?
+
+
+---Réferences bibliographiques diverses :----------
+
+https://fr.wikipedia.org/wiki/V%C3%A9hicule_automatique_l%C3%A9ger -> Wiki sur le VAL
+https://pastel.archives-ouvertes.fr/pastel-00002981/document -> These technique Phy/SI
+
 
 
