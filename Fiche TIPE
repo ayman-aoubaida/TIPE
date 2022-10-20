@@ -3,28 +3,67 @@ VAL Lille
 Régulation, Optimisation, Modélisation 
 
 
----Principale réference pour le moment :----------
+------------------------ Principales réferences pour le moment : -----------------
 
 https://pepite-depot.univ-lille.fr/LIBRE/Th_Num/1996/50376-1996-164.pdf -> These Info "Logique floue" 
 
-Sur quelle problématique ? 
--Service partiel
--
--
--
--
+Se renseigner sur l'Inférence bayésienne <> Logique floue
 
-Inférence bayésienne <> Logique floue
+Impémentation logique floue en OCAML ?
 
-Représentation par réseaux de flots -> poids = distance / temps trajet
+
+Ensemble flou -> Ensemble des stations noté S de card |S| = n 
+
+R l'ensemble des rames du réseau
+
+    R -> S1 * ... * Sn 
+f : x -> (degappartenance(S1),...,degappartenance(Sn))
+
+
+
+
 
 Représentation graphique ?
 
-
----Réferences bibliographiques diverses :----------
+-------------------------- Réferences bibliographiques diverses : ----------------------
 
 https://fr.wikipedia.org/wiki/V%C3%A9hicule_automatique_l%C3%A9ger -> Wiki sur le VAL
 https://pastel.archives-ouvertes.fr/pastel-00002981/document -> These technique Phy/SI
 
+------------------------ Ebauche MCOT : --------------------------
+
+                                                                 Logique floue et régulation du métro Lillois
+
+Ce TIPE porte sur l'étude de la régulation du métro lillois,
+
+Conjointement développé par Matra, l'Université de Lille ainsi que l'Institut industriel du Nord (ex-Centrale Lille) dans les années 70-80,le métro lillois (VAL) fut le premier métro entièrement automatique au monde.
+Ce système rencontra un franc succès en France, plusieurs métropoles l'adoptant pour leur projet de métro, Il s'exporta meme à l'international.
+
+Dans une métropole, (la bonne cohabitation des différents modes de transport est un enjeu primordial) -> intermodalité , avec les nouveaux enjeux de changement climatique/ecologie, les transports en communs sont à priviligier .....
+En particulier le métro -> énergie éléctrique -> pollue pas si production aussi
+                        -> Pas les inconvénients du tram/bus
+                         
+La régulation automatique du réseau Lillois repose sur le concept mathématique de logique floue.
+Présentation succinte du concept : 
+Concept en vogue ds les années 70-90 ? ......
+
+
+
+
+
+
+
+Thématiques : Informatique (Algo ?), Mathématiques (Algèbre, Probas ?)
+
+
+Problématique : Comment le concept mathématique de logique floue, permet d'optimiser la regulation du systeme métro lillois ?
+
+
+
+
+
+
+
+ 
 
 
