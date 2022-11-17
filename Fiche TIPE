@@ -7,6 +7,34 @@ Régulation, Optimisation, Modélisation
 
 https://pepite-depot.univ-lille.fr/LIBRE/Th_Num/1996/50376-1996-164.pdf -> These Info "Logique floue" 
 
+Extraits :
+
+ 
+
+P.53 -> "Nous avons décidé d'utiliser la logique floue au niveau régulation et au niveau des
+stations, plus particulièrement, dans l'autorisation ou l'interdiction des départs des rames des
+stations.
+ + 2 niveaux 
+   
+   -> "Le premier niveau prend en
+      compte le retard des rames pour permettre de réguler les rames selon l'horaire théorique de
+      référence. Pour chaque rame à commander, nous régulons d'après trois informations : le retard
+      de la rame et les retards des rames amont et aval. Les autres informations susceptibles d'être
+      disponibles sur la (les) cause(s) des retards constatés ne sont pas prises en compte à ce niveau."
+   
+   -> "Le deuxième niveau permet de prendre en compte les événements qui se sont déroulés sur la
+      ligne pour interdire les départs des rames des stations où elles se trouvent. Dans le niveau
+      supervision représenté sur la figure 2. 7, nous observons si une rame est perturbée sur la ligne
+      et nous estimons son temps de perturbation. D'après ces informations, nous agissons sur les
+      rames pour éviter les situations de conflits et permettre un fonctionnement le moins dégradé
+      possible de l'ensemble de la ligne."
+ 
+
+
+
+
+
+
 Se renseigner sur l'Inférence bayésienne <> Logique floue
 
 Impémentation logique floue en OCAML ?
@@ -28,7 +56,11 @@ Représentation graphique ?
 -------------------------- Réferences bibliographiques diverses : ----------------------
 
 https://fr.wikipedia.org/wiki/V%C3%A9hicule_automatique_l%C3%A9ger -> Wiki sur le VAL
+
 https://pastel.archives-ouvertes.fr/pastel-00002981/document -> These technique Phy/SI
+
+https://web4.ensiie.fr/~gacogne/caml1.pdf -> Parle de logique floue à un moment 
+
 
 ------------------------ Ebauche MCOT : --------------------------
 
@@ -36,7 +68,7 @@ https://pastel.archives-ouvertes.fr/pastel-00002981/document -> These technique 
 
 Ce TIPE porte sur l'étude de la régulation du métro lillois,
 
-Conjointement développé par Matra, l'Université de Lille ainsi que l'Institut industriel du Nord (ex-Centrale Lille) dans les années 70-80,le métro lillois (VAL) fut le premier métro entièrement automatique au monde.
+Conjointement développé par Matra, l'Université de Lille ainsi que l'Institut industriel du Nord (ex-Centrale Lille) dans les années 70-80, le métro lillois (VAL) fut le premier métro entièrement automatique au monde.
 Ce système rencontra un franc succès en France, plusieurs métropoles l'adoptant pour leur projet de métro, Il s'exporta meme à l'international.
 
 Dans une métropole, (la bonne cohabitation des différents modes de transport est un enjeu primordial) -> intermodalité , avec les nouveaux enjeux de changement climatique/ecologie, les transports en communs sont à priviligier .....
@@ -47,9 +79,7 @@ La régulation automatique du réseau Lillois repose sur le concept mathématiqu
 Présentation succinte du concept : 
 Concept en vogue ds les années 70-90 ? ......
 
-
-
-
+Bool = [0,1] et non {0,1}
 
 
 
@@ -60,7 +90,9 @@ Problématique : Comment le concept mathématique de logique floue, permet d'opt
 
 
 
+-------------------------- Fichers Ocaml / C : ------------------------
 
+Pour l'instant : recherche struct donnés optimale 
 
 
 
