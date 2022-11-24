@@ -1,9 +1,11 @@
 
 VAL Lille 
+
 Régulation, Optimisation, Modélisation 
 
 
------------------------- Principales réferences pour le moment : -----------------
+
+------------------------ Principale réference pour le moment : -----------------
 
 https://pepite-depot.univ-lille.fr/LIBRE/Th_Num/1996/50376-1996-164.pdf -> These Info "Logique floue" 
 
@@ -29,16 +31,17 @@ stations.
       rames pour éviter les situations de conflits et permettre un fonctionnement le moins dégradé
       possible de l'ensemble de la ligne."
  
+ 
+ 
+ 
+ 
+ 
+ 
 
 
-
-
-
+------------------------------ Réflechir sur : ---------------------
 
 Se renseigner sur l'Inférence bayésienne <> Logique floue
-
-Impémentation logique floue en OCAML ?
-
 
 Ensemble flou -> Ensemble des stations noté S de card |S| = n 
 
@@ -47,11 +50,18 @@ R l'ensemble des rames du réseau
     R -> S1 * ... * Sn 
 f : x -> (degappartenance(S1),...,degappartenance(Sn))
 
-
-
-
-
 Représentation graphique ?
+
+
+
+
+
+
+
+
+
+
+
 
 -------------------------- Réferences bibliographiques diverses : ----------------------
 
@@ -60,6 +70,14 @@ https://fr.wikipedia.org/wiki/V%C3%A9hicule_automatique_l%C3%A9ger -> Wiki sur l
 https://pastel.archives-ouvertes.fr/pastel-00002981/document -> These technique Phy/SI
 
 https://web4.ensiie.fr/~gacogne/caml1.pdf -> Parle de logique floue à un moment 
+
+
+
+
+
+
+
+
 
 
 ------------------------ Ebauche MCOT : --------------------------
@@ -76,10 +94,13 @@ En particulier le métro -> énergie éléctrique -> pollue pas si production au
                         -> Pas les inconvénients du tram/bus
                          
 La régulation automatique du réseau Lillois repose sur le concept mathématique de logique floue.
-Présentation succinte du concept : 
-Concept en vogue ds les années 70-90 ? ......
 
-Bool = [0,1] et non {0,1}
+Présentation succinte du concept : 
+- Bool = [0,1] et non {0,1}
+-
+
+
+Concept en vogue ds les années 70-90 ? ......
 
 
 
@@ -90,9 +111,23 @@ Problématique : Comment le concept mathématique de logique floue, permet d'opt
 
 
 
+
+
+
+
+
+
+
+
+
 -------------------------- Fichers Ocaml / C : ------------------------
 
+
+
 Pour l'instant : recherche struct donnés optimale 
+
+http://sdz.tdct.org/sdz/les-listes-circulaires-doublement-chainees-en-c.html -> Implémentation en C du réseau ?
+
 
 
 
