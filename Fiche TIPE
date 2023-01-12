@@ -71,11 +71,11 @@ https://pastel.archives-ouvertes.fr/pastel-00002981/document -> These technique 
 
 https://web4.ensiie.fr/~gacogne/caml1.pdf -> Parle de logique floue à un moment 
 
+https://fr.wikipedia.org/wiki/Poste_de_commande_centralis%C3%A9
 
+https://fr.wikipedia.org/wiki/Canton_mobile_d%C3%A9formable
 
-
-
-
+https://fr.wikipedia.org/wiki/Siemens_Mobility
 
 
 
@@ -93,19 +93,25 @@ Dans une métropole, (la bonne cohabitation des différents modes de transport e
 En particulier le métro -> énergie éléctrique -> pollue pas si production aussi
                         -> Pas les inconvénients du tram/bus
                          
-La régulation automatique du réseau Lillois repose sur le concept mathématique de logique floue.
+(*La régulation automatique du réseau Lillois repose sur le concept mathématique de logique floue.
 
 Présentation succinte du concept : 
 - Bool = [0,1] et non {0,1}
 -
 
-Concept en vogue ds les années 70-90 ? ......
+Concept en vogue ds les années 70-90 ? ......*)
 
-Thématiques : Informatique (Algo ?), Mathématiques (Algèbre, Probas ?)
+Le réseau étant entièrement automatisé, ->> PCC 
+  
 
 
-Problématique : Comment le concept mathématique de logique floue, permet d'optimiser la regulation du systeme métro lillois ?
 
+
+Problématique : 
+
+ (Comment le concept mathématique de logique floue, permet d'optimiser la regulation du systeme métro lillois ?)
+
+Thématiques : Informatique Pratique (Programmation), Mathématiques (Algèbre ?, Probas ?)
 
 
 
